@@ -65,7 +65,7 @@ A URL Shortener API built with Node.js, Express, and MongoDB. The API allows use
   - `GET /api/urls/:shortUrl`
   - Redirects to the original URL and increments the click count.
 
-## Models
+
 
 ### User Model
 
@@ -83,29 +83,8 @@ A URL Shortener API built with Node.js, Express, and MongoDB. The API allows use
 
 ## Installation
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/shashankaz/url_shortener_api.git
-   cd url_shortener_api
-   ```
 
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
 
-3. Set up environment variables:
-   - Create a `.env` file in the root directory
-   - Add the following environment variables:
-     ```env
-     MONGO_URI=your-mongodb-connection-string
-     JWT_SECRET=your-jwt-secret
-     ```
-
-4. Start the server:
-   ```sh
-   npm start
-   ```
 
 ## Usage
 
